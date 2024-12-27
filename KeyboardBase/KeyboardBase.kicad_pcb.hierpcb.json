@@ -1,0 +1,57 @@
+{
+  "subpcb": {
+    "Column.kicad_pcb": {
+      "anchor": "J101"
+    },
+    "KeyboardBase.kicad_pcb": {
+      "anchor": "J101"
+    }
+  },
+  "sheet": {
+    "": {
+      "checked": false
+    },
+    "/2e9d2ce4-27a5-4b27-b3a9-61c373fcf410": {
+      "checked": true
+    },
+    "/2e9d2ce4-27a5-4b27-b3a9-61c373fcf410/8a2f9b34-4328-41e7-aa6d-a908a49e70ea": {
+      "checked": false
+    },
+    "/9e21e4da-df0d-4ad2-80d0-ce64cd76f1e0": {
+      "checked": true
+    },
+    "/9e21e4da-df0d-4ad2-80d0-ce64cd76f1e0/8a2f9b34-4328-41e7-aa6d-a908a49e70ea": {
+      "checked": false
+    },
+    "/b12015ec-223b-4bb4-9ba6-0a2daa03152b": {
+      "checked": true
+    },
+    "/b12015ec-223b-4bb4-9ba6-0a2daa03152b/8a2f9b34-4328-41e7-aa6d-a908a49e70ea": {
+      "checked": false
+    },
+    "/bc0fffb6-4ec2-4ad2-a841-f7ea033d4d31": {
+      "checked": true
+    },
+    "/bc0fffb6-4ec2-4ad2-a841-f7ea033d4d31/8a2f9b34-4328-41e7-aa6d-a908a49e70ea": {
+      "checked": false
+    },
+    "/e450ed09-aa41-4339-a742-667912e52595": {
+      "checked": true
+    },
+    "/e450ed09-aa41-4339-a742-667912e52595/8a2f9b34-4328-41e7-aa6d-a908a49e70ea": {
+      "checked": false
+    },
+    "/e5de84b1-bd63-4470-965b-205e6495b667": {
+      "checked": true
+    },
+    "/e5de84b1-bd63-4470-965b-205e6495b667/8a2f9b34-4328-41e7-aa6d-a908a49e70ea": {
+      "checked": false
+    },
+    "/f3f1a99f-1d38-4e35-b66b-fddaa328bedc": {
+      "checked": true
+    },
+    "/f3f1a99f-1d38-4e35-b66b-fddaa328bedc/8a2f9b34-4328-41e7-aa6d-a908a49e70ea": {
+      "checked": false
+    }
+  }
+}

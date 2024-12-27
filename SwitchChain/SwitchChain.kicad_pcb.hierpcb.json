@@ -1,0 +1,45 @@
+{
+  "subpcb": {
+    "SwitchDaisy.kicad_pcb": {
+      "anchor": "SW101"
+    },
+    "SwitchChain.kicad_pcb": {
+      "anchor": "SW1001"
+    }
+  },
+  "sheet": {
+    "": {
+      "checked": false
+    },
+    "/05e9cf44-cc74-4dfc-9669-d1b74a38bd15": {
+      "checked": true
+    },
+    "/05e9cf44-cc74-4dfc-9669-d1b74a38bd15/26301dba-533b-46ba-8510-3ef352a12ed2": {
+      "checked": false
+    },
+    "/1ab69dab-5bac-40ee-8e89-7d9f544d3dd1": {
+      "checked": true
+    },
+    "/1ab69dab-5bac-40ee-8e89-7d9f544d3dd1/26301dba-533b-46ba-8510-3ef352a12ed2": {
+      "checked": false
+    },
+    "/253992b3-02ab-4aad-9a1e-d76b1438e691": {
+      "checked": true
+    },
+    "/253992b3-02ab-4aad-9a1e-d76b1438e691/26301dba-533b-46ba-8510-3ef352a12ed2": {
+      "checked": false
+    },
+    "/95715d47-4288-4034-bf4d-8592fbea460b": {
+      "checked": true
+    },
+    "/95715d47-4288-4034-bf4d-8592fbea460b/26301dba-533b-46ba-8510-3ef352a12ed2": {
+      "checked": false
+    },
+    "/e5f58502-0be9-4211-a7c1-cfa595b76602": {
+      "checked": true
+    },
+    "/e5f58502-0be9-4211-a7c1-cfa595b76602/26301dba-533b-46ba-8510-3ef352a12ed2": {
+      "checked": false
+    }
+  }
+}
