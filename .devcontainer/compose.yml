@@ -4,9 +4,8 @@ services:
   app:
     build: .
     container_name: DflipDaisy
-    restart: no
+    restart: "no"
     volumes:
-      - ..:/workspace:cached
       - space:/workspace
 
 volumes:
