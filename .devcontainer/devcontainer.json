@@ -15,7 +15,8 @@
 		"vscode": {
 			"extensions": [
 				"eamodio.gitlens",
-				"rust-lang.rust-analyzer"
+				"rust-lang.rust-analyzer",
+				"tamasfe.even-better-toml"
 			]
 		}
 	}
