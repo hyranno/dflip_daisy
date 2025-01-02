@@ -7,6 +7,9 @@ mod keymap;
 mod macros;
 mod vial;
 
+mod custom;
+use custom::monolithic::run_rmk_with_async_flash;
+
 use defmt::*;
 use defmt_rtt as _;
 use embassy_executor::Spawner;
@@ -19,10 +22,7 @@ use embassy_rp::{
 };
 // use embassy_rp::flash::Blocking;
 use panic_probe as _;
-use rmk::{
-    config::{KeyboardUsbConfig, RmkConfig, VialConfig},
-    run_rmk_with_async_flash,
-};
+use rmk::config::{KeyboardUsbConfig, RmkConfig, VialConfig};
 use vial::{VIAL_KEYBOARD_DEF, VIAL_KEYBOARD_ID};
 
 bind_interrupts!(struct Irqs {
