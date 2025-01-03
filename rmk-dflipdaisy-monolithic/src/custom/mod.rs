@@ -1,2 +1,2 @@
 pub(crate) mod monolithic;
-mod matrix;
+pub(crate) mod matrix;

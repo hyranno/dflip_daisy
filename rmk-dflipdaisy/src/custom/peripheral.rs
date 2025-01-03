@@ -11,7 +11,7 @@ use embedded_hal_async::digital::Wait;
 #[cfg(not(feature = "_nrf_ble"))]
 use embedded_io_async::{Read, Write};
 
-use crate::custom::matrix::Matrix;
+use super::matrix::{SequentialMatrix, SequentialMatrixPins};
 
 
 /// Run the split peripheral service.
@@ -32,30 +32,24 @@ pub async fn run_rmk_split_peripheral<
     const ROW: usize,
     const COL: usize,
 >(
-    #[cfg(feature = "col2row")] input_pins: [In; ROW],
-    #[cfg(not(feature = "col2row"))] input_pins: [In; COL],
-    #[cfg(feature = "col2row")] output_pins: [Out; COL],
-    #[cfg(not(feature = "col2row"))] output_pins: [Out; ROW],
+    pins: SequentialMatrixPins<In, Out>,
     #[cfg(feature = "_nrf_ble")] central_addr: [u8; 6],
     #[cfg(feature = "_nrf_ble")] peripheral_addr: [u8; 6],
     #[cfg(not(feature = "_nrf_ble"))] serial: S,
     #[cfg(feature = "_nrf_ble")] spawner: Spawner,
 ) {
-    // Create the debouncer, use COL2ROW by default
-    #[cfg(all(feature = "col2row", feature = "rapid_debouncer"))]
-    let debouncer = RapidDebouncer::<ROW, COL>::new();
-    #[cfg(all(feature = "col2row", not(feature = "rapid_debouncer")))]
-    let debouncer = DefaultDebouncer::<ROW, COL>::new();
-    #[cfg(all(not(feature = "col2row"), feature = "rapid_debouncer"))]
-    let debouncer = RapidDebouncer::<COL, ROW>::new();
-    #[cfg(all(not(feature = "col2row"), not(feature = "rapid_debouncer")))]
-    let debouncer = DefaultDebouncer::<COL, ROW>::new();
-
-    // Keyboard matrix, use COL2ROW by default
-    #[cfg(feature = "col2row")]
-    let matrix = Matrix::<_, _, _, ROW, COL>::new(input_pins, output_pins, debouncer);
-    #[cfg(not(feature = "col2row"))]
-    let matrix = Matrix::<_, _, _, COL, ROW>::new(input_pins, output_pins, debouncer);
+    #[cfg(feature = "rapid_debouncer")]
+    let debouncer: RapidDebouncer<COL, ROW> = RapidDebouncer::new();
+    #[cfg(not(feature = "rapid_debouncer"))]
+    let debouncer: DefaultDebouncer<COL, ROW> = DefaultDebouncer::new();
+    
+    let matrix = SequentialMatrix::<
+        In,
+        Out,
+        _,
+        ROW,
+        COL,
+    >::new(pins, debouncer);
 
     #[cfg(not(feature = "_nrf_ble"))]
     rmk::split::serial::initialize_serial_split_peripheral_and_run::<_, S, ROW, COL>(

@@ -10,7 +10,7 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-rmk = { git = "https://github.com/hyranno/rmk.git", branch = "change/open_modules", default-features = false, features = [
+rmk = { git = "https://github.com/hyranno/rmk.git", branch = "main", default-features = false, features = [
     "split",
 ] }
 embassy-time = { version = "0.3", features = ["defmt"] }

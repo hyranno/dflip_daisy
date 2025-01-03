@@ -8,7 +8,7 @@ mod macros;
 mod vial;
 
 mod custom;
-use custom::monolithic::run_rmk_with_async_flash;
+use custom::{monolithic::run_rmk_with_async_flash, matrix::SequentialMatrixPins};
 
 use defmt::*;
 use defmt_rtt as _;
@@ -41,7 +41,14 @@ async fn main(spawner: Spawner) {
     let driver = Driver::new(p.USB, Irqs);
 
     // Pin config
-    let (input_pins, output_pins) = config_matrix_pins_rp!(peripherals: p, input: [PIN_6, PIN_7, PIN_8, PIN_9], output: [PIN_19, PIN_20, PIN_21]);
+    let pins = config_sequential_matrix_pins_rp!(
+        peripherals: p,
+        row_clock: PIN_9,
+        col_clock: PIN_10,
+        any_not: PIN_11,
+        reset_not: PIN_12,
+        input: PIN_13,
+    );
 
     // Use internal flash to emulate eeprom
     // Both blocking and async flash are support, use different API
@@ -67,8 +74,7 @@ async fn main(spawner: Spawner) {
     // Start serving
     // Use `run_rmk` for blocking flash
     run_rmk_with_async_flash(
-        input_pins,
-        output_pins,
+        pins,
         driver,
         flash,
         &mut keymap::get_default_keymap(),

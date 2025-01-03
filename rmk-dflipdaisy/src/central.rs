@@ -10,7 +10,7 @@ mod vial;
 mod custom;
 
 use crate::keymap::{COL, NUM_LAYER, ROW};
-use crate::custom::central::run_rmk_split_central;
+use crate::custom::{central::run_rmk_split_central, matrix::SequentialMatrixPins};
 
 use defmt::*;
 use defmt_rtt as _;
@@ -53,8 +53,14 @@ async fn main(spawner: Spawner) {
     let driver = Driver::new(p.USB, Irqs);
 
     // Pin config
-    let (input_pins, output_pins) =
-        config_matrix_pins_rp!(peripherals: p, input: [PIN_9, PIN_11], output: [PIN_10, PIN_12]);
+    let pins = config_sequential_matrix_pins_rp!(
+        peripherals: p,
+        row_clock: PIN_9,
+        col_clock: PIN_10,
+        any_not: PIN_11,
+        reset_not: PIN_12,
+        input: PIN_13,
+    );
 
     // Use internal flash to emulate eeprom
     // Both blocking and async flash are support, use different API
@@ -106,8 +112,7 @@ async fn main(spawner: Spawner) {
             0,
             NUM_LAYER,
         >(
-            input_pins,
-            output_pins,
+            pins,
             driver,
             flash,
             &mut keymap::get_default_keymap(),

@@ -5,7 +5,7 @@
 mod macros;
 
 mod custom;
-use crate::custom::peripheral::run_rmk_split_peripheral;
+use crate::custom::{peripheral::run_rmk_split_peripheral, matrix::SequentialMatrixPins};
 
 use defmt::*;
 use defmt_rtt as _;
@@ -33,8 +33,14 @@ async fn main(_spawner: Spawner) {
     let p = embassy_rp::init(Default::default());
 
     // Pin config
-    let (input_pins, output_pins) =
-        config_matrix_pins_rp!(peripherals: p, input: [PIN_9, PIN_11], output: [PIN_10, PIN_12]);
+    let pins = config_sequential_matrix_pins_rp!(
+        peripherals: p,
+        row_clock: PIN_9,
+        col_clock: PIN_10,
+        any_not: PIN_11,
+        reset_not: PIN_12,
+        input: PIN_13,
+    );
 
     static TX_BUF: StaticCell<[u8; SPLIT_MESSAGE_MAX_SIZE]> = StaticCell::new();
     let tx_buf = &mut TX_BUF.init([0; SPLIT_MESSAGE_MAX_SIZE])[..];
@@ -52,8 +58,7 @@ async fn main(_spawner: Spawner) {
 
     // Start serving
     run_rmk_split_peripheral::<Input<'_>, Output<'_>, _, 2, 2>(
-        input_pins,
-        output_pins,
+        pins,
         uart_instance,
     )
     .await;

@@ -13,7 +13,7 @@ use rmk::action::KeyAction;
 use rmk::initialize_usb_keyboard_and_run;
 use rmk::debounce::DebouncerTrait;
 
-use crate::custom::matrix::Matrix;
+use crate::custom::matrix::{SequentialMatrix, SequentialMatrixPins};
 
 #[cfg(not(feature = "_esp_ble"))]
 use embassy_executor::Spawner;
@@ -51,31 +51,25 @@ pub async fn run_rmk_with_async_flash<
     const COL: usize,
     const NUM_LAYER: usize,
 >(
-    #[cfg(feature = "col2row")] input_pins: [In; ROW],
-    #[cfg(not(feature = "col2row"))] input_pins: [In; COL],
-    #[cfg(feature = "col2row")] output_pins: [Out; COL],
-    #[cfg(not(feature = "col2row"))] output_pins: [Out; ROW],
+    pins: SequentialMatrixPins<In, Out>,
     #[cfg(not(feature = "_no_usb"))] usb_driver: D,
     #[cfg(not(feature = "_no_external_storage"))] flash: F,
     default_keymap: &mut [[[KeyAction; COL]; ROW]; NUM_LAYER],
     keyboard_config: RmkConfig<'static, Out>,
     #[cfg(not(feature = "_esp_ble"))] spawner: Spawner,
 ) -> ! {
-    // Create the debouncer, use COL2ROW by default
-    #[cfg(all(feature = "col2row", feature = "rapid_debouncer"))]
-    let debouncer = RapidDebouncer::<ROW, COL>::new();
-    #[cfg(all(feature = "col2row", not(feature = "rapid_debouncer")))]
-    let debouncer = DefaultDebouncer::<ROW, COL>::new();
-    #[cfg(all(not(feature = "col2row"), feature = "rapid_debouncer"))]
-    let debouncer = RapidDebouncer::<COL, ROW>::new();
-    #[cfg(all(not(feature = "col2row"), not(feature = "rapid_debouncer")))]
-    let debouncer = DefaultDebouncer::<COL, ROW>::new();
+    #[cfg(feature = "rapid_debouncer")]
+    let debouncer: RapidDebouncer<COL, ROW> = RapidDebouncer::new();
+    #[cfg(not(feature = "rapid_debouncer"))]
+    let debouncer: DefaultDebouncer<COL, ROW> = DefaultDebouncer::new();
 
-    // Keyboard matrix, use COL2ROW by default
-    #[cfg(feature = "col2row")]
-    let matrix = Matrix::<_, _, _, ROW, COL>::new(input_pins, output_pins, debouncer);
-    #[cfg(not(feature = "col2row"))]
-    let matrix = Matrix::<_, _, _, COL, ROW>::new(input_pins, output_pins, debouncer);
+    let matrix = SequentialMatrix::<
+        In,
+        Out,
+        _,
+        ROW,
+        COL,
+    >::new(pins, debouncer);
 
     // Dispatch according to chip and communication type
     #[cfg(feature = "_nrf_ble")]
