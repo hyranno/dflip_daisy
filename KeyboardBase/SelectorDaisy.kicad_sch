@@ -1976,7 +1976,7 @@
 		)
 		(uuid "0e05389d-f28b-45ff-85af-67409fae4a45")
 	)
-	(hierarchical_label "Reset"
+	(hierarchical_label "~{Reset}"
 		(shape input)
 		(at 69.85 73.66 180)
 		(fields_autoplaced yes)

@@ -508,7 +508,7 @@
 		)
 		(uuid "3db7f446-7ece-4865-9f4f-24e67bc30c00")
 	)
-	(hierarchical_label "Reset"
+	(hierarchical_label "~{Reset}"
 		(shape input)
 		(at 115.57 129.54 180)
 		(fields_autoplaced yes)
@@ -669,10 +669,6 @@
 					(reference "R301")
 					(unit 1)
 				)
-				(path "/bdfc27f9-2f87-4fe7-a85f-b21fa09d30f0/253992b3-02ab-4aad-9a1e-d76b1438e691"
-					(reference "R1001")
-					(unit 1)
-				)
 				(path "/bdfc27f9-2f87-4fe7-a85f-b21fa09d30f0/95715d47-4288-4034-bf4d-8592fbea460b"
 					(reference "R501")
 					(unit 1)
@@ -758,10 +754,6 @@
 					(reference "SW301")
 					(unit 1)
 				)
-				(path "/bdfc27f9-2f87-4fe7-a85f-b21fa09d30f0/253992b3-02ab-4aad-9a1e-d76b1438e691"
-					(reference "SW1001")
-					(unit 1)
-				)
 				(path "/bdfc27f9-2f87-4fe7-a85f-b21fa09d30f0/95715d47-4288-4034-bf4d-8592fbea460b"
 					(reference "SW501")
 					(unit 1)
@@ -833,16 +825,6 @@
 			)
 			(uuid "8a721687-ff31-4bad-b9da-ca370fe8398c")
 		)
-		(pin "Reset" input
-			(at 119.38 129.54 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bf3bd1aa-75c6-4554-b4eb-e313a835565c")
-		)
 		(pin "CLK" input
 			(at 119.38 134.62 180)
 			(effects
@@ -903,6 +885,16 @@
 			)
 			(uuid "8831fdb5-d09b-43bd-8105-a705b9355c77")
 		)
+		(pin "~{Reset}" input
+			(at 119.38 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9966425c-9b6f-48fb-a194-44b198f0958a")
+		)
 		(instances
 			(project "SwitchChain"
 				(path "/bdfc27f9-2f87-4fe7-a85f-b21fa09d30f0/05e9cf44-cc74-4dfc-9669-d1b74a38bd15"
@@ -917,20 +909,12 @@
 				(path "/bdfc27f9-2f87-4fe7-a85f-b21fa09d30f0/e5f58502-0be9-4211-a7c1-cfa595b76602"
 					(page "9")
 				)
-				(path "/bdfc27f9-2f87-4fe7-a85f-b21fa09d30f0/253992b3-02ab-4aad-9a1e-d76b1438e691"
-					(page "11")
-				)
 			)
 			(project "SwitchDaisy"
 				(path "/35d7a671-e10b-4183-9487-68eb8131dfa3"
 					(page "2")
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )

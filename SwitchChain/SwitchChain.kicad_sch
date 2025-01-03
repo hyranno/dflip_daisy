@@ -574,16 +574,10 @@
 		)
 	)
 	(junction
-		(at 210.82 71.12)
+		(at 181.61 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0caf9aba-674c-48c4-8b5d-7f8bd12f7381")
-	)
-	(junction
-		(at 210.82 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25059ca3-8bc4-4197-92a6-7b2c8e868e7b")
+		(uuid "22639f35-2e76-42d9-9f61-659ba12f8815")
 	)
 	(junction
 		(at 181.61 81.28)
@@ -592,16 +586,10 @@
 		(uuid "32729281-1cd4-492b-964f-1790d7b5304e")
 	)
 	(junction
-		(at 210.82 78.74)
+		(at 121.92 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "46ccd372-f17d-4845-9f8e-26bb98b94938")
-	)
-	(junction
-		(at 181.61 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ec2506e-43bc-4abf-bf66-fd7fc92edd23")
+		(uuid "4b9afbb8-226c-4d48-b2a0-653868e56dc4")
 	)
 	(junction
 		(at 181.61 71.12)
@@ -616,34 +604,10 @@
 		(uuid "8fbd2b05-c89e-4789-a521-79a2c74a47c2")
 	)
 	(junction
-		(at 210.82 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a206ec24-9b15-4e44-b142-6848e71dbcfd")
-	)
-	(junction
-		(at 121.92 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a22029c8-c496-4a01-ad50-18b5cb94d294")
-	)
-	(junction
 		(at 152.4 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a420e47e-5d61-4882-b245-eabfa829868b")
-	)
-	(junction
-		(at 152.4 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6634853-1721-49b2-9192-ddef70d947ec")
-	)
-	(junction
-		(at 210.82 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8ab4641-f0bb-4d66-b772-21c979bfa798")
 	)
 	(junction
 		(at 181.61 78.74)
@@ -676,6 +640,12 @@
 		(uuid "e4a16666-a832-4794-ba83-67450dd60e67")
 	)
 	(junction
+		(at 152.4 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e79d2909-15f7-4e03-8cec-34cb2ea7f4b7")
+	)
+	(junction
 		(at 181.61 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -688,42 +658,12 @@
 		(uuid "f56a5bfa-1c30-4c8c-908e-f501a02807a8")
 	)
 	(no_connect
-		(at 259.08 83.82)
-		(uuid "421441c5-cb87-4657-9c38-d7b1bdbc41ef")
+		(at 229.87 83.82)
+		(uuid "06b1e979-ec78-4bba-ad8f-5f5a7fbb2a17")
 	)
 	(no_connect
-		(at 259.08 73.66)
-		(uuid "db72a683-0ce2-4852-a11d-5aa18f51370b")
-	)
-	(wire
-		(pts
-			(xy 229.87 73.66) (xy 240.03 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13b200d8-0d0b-4c90-9522-b4e9c513c3d0")
-	)
-	(wire
-		(pts
-			(xy 210.82 71.12) (xy 240.03 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16307125-fa15-4e87-8cdf-23ed13878183")
-	)
-	(wire
-		(pts
-			(xy 210.82 68.58) (xy 240.03 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2105d1da-2ec8-4ded-a057-d4698595bdfd")
+		(at 229.87 73.66)
+		(uuid "fd330da4-2ea1-49ff-b2d7-58cff6f33f70")
 	)
 	(wire
 		(pts
@@ -733,17 +673,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "290c42ad-6aca-4d9b-a254-ff74f6edc1b9")
-	)
-	(wire
-		(pts
-			(xy 210.82 81.28) (xy 240.03 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a785a34-516d-4caf-9848-9f535c456d1d")
+		(uuid "0e823e0e-323b-4c5d-aa47-7106e172e7ae")
 	)
 	(wire
 		(pts
@@ -777,16 +707,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 76.2) (xy 121.92 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "412935d4-6e21-48e4-bb20-ff338692a159")
-	)
-	(wire
-		(pts
 			(xy 121.92 71.12) (xy 152.4 71.12)
 		)
 		(stroke
@@ -803,7 +723,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4b1d997a-1020-474e-b5cb-1a943ae8a33c")
+		(uuid "458094f7-f89c-4042-b773-1f7f10fa4cf8")
 	)
 	(wire
 		(pts
@@ -887,16 +807,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 76.2) (xy 152.4 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8af00595-0eda-4f72-95d0-c65e924d235e")
-	)
-	(wire
-		(pts
 			(xy 200.66 83.82) (xy 210.82 83.82)
 		)
 		(stroke
@@ -904,6 +814,16 @@
 			(type default)
 		)
 		(uuid "8de3d3fe-1372-4be1-89d8-e7818e52eb6c")
+	)
+	(wire
+		(pts
+			(xy 121.92 76.2) (xy 152.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9939a5df-36d7-42a8-8f23-a063a697728a")
 	)
 	(wire
 		(pts
@@ -937,16 +857,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 83.82) (xy 240.03 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0679b05-5f5d-4fc4-9173-b65939e37b32")
-	)
-	(wire
-		(pts
 			(xy 121.92 81.28) (xy 152.4 81.28)
 		)
 		(stroke
@@ -964,26 +874,6 @@
 			(type default)
 		)
 		(uuid "ca73b90c-65cb-46d2-a579-b3b697be3227")
-	)
-	(wire
-		(pts
-			(xy 210.82 76.2) (xy 240.03 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cae703c1-43c5-4dd3-a631-f0edc45944cd")
-	)
-	(wire
-		(pts
-			(xy 210.82 78.74) (xy 240.03 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfc5ff47-1a66-41b3-be23-7ac169a9e742")
 	)
 	(wire
 		(pts
@@ -1034,6 +924,16 @@
 			(type default)
 		)
 		(uuid "e6f12650-f0d7-495f-aff0-e2a580476b6d")
+	)
+	(wire
+		(pts
+			(xy 116.84 76.2) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e898ec42-1e81-4497-bbbc-f9ddf53720db")
 	)
 	(wire
 		(pts
@@ -1175,7 +1075,7 @@
 			)
 		)
 	)
-	(global_label "Reset"
+	(global_label "~{Reset}"
 		(shape input)
 		(at 87.63 88.9 0)
 		(fields_autoplaced yes)
@@ -1329,7 +1229,7 @@
 			)
 		)
 	)
-	(global_label "Reset"
+	(global_label "~{Reset}"
 		(shape input)
 		(at 116.84 76.2 180)
 		(fields_autoplaced yes)
@@ -1954,16 +1854,6 @@
 			)
 			(uuid "162b4be1-0c14-4cc8-b005-c54897d7bf23")
 		)
-		(pin "Reset" input
-			(at 121.92 76.2 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1a1f86fc-b0bc-45eb-8ed1-a8c779a7fa68")
-		)
 		(pin "CLK" input
 			(at 121.92 81.28 180)
 			(effects
@@ -2013,6 +1903,16 @@
 				(justify right)
 			)
 			(uuid "17197204-ee05-4bba-b449-bb299ede183c")
+		)
+		(pin "~{Reset}" input
+			(at 121.92 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a6b8ee0d-0de9-4cd2-883e-fd2ddead462f")
 		)
 		(instances
 			(project "SwitchChain"
@@ -2082,16 +1982,6 @@
 			)
 			(uuid "831e121d-fa86-4c25-883b-b6c68c34b7c9")
 		)
-		(pin "Reset" input
-			(at 152.4 76.2 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7ec4c4dd-ac21-4763-bcaa-88a7bc29d81b")
-		)
 		(pin "CLK" input
 			(at 152.4 81.28 180)
 			(effects
@@ -2142,138 +2032,20 @@
 			)
 			(uuid "afee8c6b-697e-4192-9e74-378f741e77ce")
 		)
+		(pin "~{Reset}" input
+			(at 152.4 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a38cfbbd-f708-48fc-b4a4-65d183edcb1e")
+		)
 		(instances
 			(project "SwitchChain"
 				(path "/bdfc27f9-2f87-4fe7-a85f-b21fa09d30f0"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 240.03 66.04)
-		(size 19.05 20.32)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "253992b3-02ab-4aad-9a1e-d76b1438e691")
-		(property "Sheetname" "SwitchDaisy4"
-			(at 240.03 65.3284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "SwitchDaisy.kicad_sch"
-			(at 240.03 86.9446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "Out" output
-			(at 240.03 73.66 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "5cd3c00a-a0bb-442c-a3ce-cf702bb9ca6e")
-		)
-		(pin "Vcc" passive
-			(at 240.03 71.12 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f4a130d0-f36a-4260-9bad-6373f4a6faed")
-		)
-		(pin "GND" passive
-			(at 240.03 68.58 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "62a7e6ac-acf9-4194-802a-807cd6152ce0")
-		)
-		(pin "Reset" input
-			(at 240.03 76.2 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f0b3c8bf-06a0-4707-a786-5d743f83af2b")
-		)
-		(pin "CLK" input
-			(at 240.03 81.28 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f7410b75-5979-44ca-b675-224987b0559d")
-		)
-		(pin "Select" input
-			(at 240.03 83.82 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6f492a31-7c5c-41cc-b6f4-fcf96d33eb30")
-		)
-		(pin "Select+" output
-			(at 259.08 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7767be1e-e702-4e83-990f-ab2e114a4750")
-		)
-		(pin "~{Init}" input
-			(at 240.03 78.74 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c93d43d7-5050-423a-ab64-66abe0695a88")
-		)
-		(pin "Out+" input
-			(at 259.08 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5270bd30-3a57-4639-bd50-1e39fb424b1f")
-		)
-		(instances
-			(project "SwitchChain"
-				(path "/bdfc27f9-2f87-4fe7-a85f-b21fa09d30f0"
-					(page "10")
 				)
 			)
 		)
@@ -2338,16 +2110,6 @@
 			)
 			(uuid "302f9911-c1db-4f45-8ebf-0a35f283d642")
 		)
-		(pin "Reset" input
-			(at 181.61 76.2 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7274d36e-8b03-4d2e-87cc-cc9db7f48723")
-		)
 		(pin "CLK" input
 			(at 181.61 81.28 180)
 			(effects
@@ -2397,6 +2159,16 @@
 				(justify right)
 			)
 			(uuid "ec0f5b7e-1cd7-401a-95d6-86a3e424a6e9")
+		)
+		(pin "~{Reset}" input
+			(at 181.61 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8f3b52ca-7236-4d5a-8b0c-1e84bef7cd6b")
 		)
 		(instances
 			(project "SwitchChain"
@@ -2466,16 +2238,6 @@
 			)
 			(uuid "577194d7-b9cf-480f-ba74-cfb3c90df831")
 		)
-		(pin "Reset" input
-			(at 210.82 76.2 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9b4d6d62-99c4-47a8-a773-dfdde7a26e26")
-		)
 		(pin "CLK" input
 			(at 210.82 81.28 180)
 			(effects
@@ -2525,6 +2287,16 @@
 				(justify right)
 			)
 			(uuid "9926b29f-2a98-4db3-b3a2-ab5fc5eca0e2")
+		)
+		(pin "~{Reset}" input
+			(at 210.82 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d0b5ee97-9b97-41f1-9985-5f0711c58fb8")
 		)
 		(instances
 			(project "SwitchChain"

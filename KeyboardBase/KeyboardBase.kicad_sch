@@ -1571,22 +1571,28 @@
 		)
 	)
 	(junction
-		(at 144.78 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0021887e-f834-480d-ab9f-d890588635e0")
-	)
-	(junction
 		(at 68.58 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07bd4fd7-668f-415a-9671-9cf0cf3552f9")
 	)
 	(junction
+		(at 196.85 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "093eea4c-92dc-4792-a97b-165d98d911a2")
+	)
+	(junction
 		(at 144.78 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f004952-3ea6-4278-88b9-569b2a3fce50")
+	)
+	(junction
+		(at 68.58 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f21eef0-0062-47b3-9078-6766b3e950d3")
 	)
 	(junction
 		(at 68.58 85.09)
@@ -1631,16 +1637,16 @@
 		(uuid "1f3feeb7-1043-42bb-8ffc-576972e14a9d")
 	)
 	(junction
+		(at 119.38 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24bfbbff-15e8-4460-9632-aceab94e5189")
+	)
+	(junction
 		(at 119.38 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b0117c3-8255-4ac0-85c3-85fe6d0afe8b")
-	)
-	(junction
-		(at 196.85 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ce17169-8a14-4759-b7d4-20e05f9dc320")
 	)
 	(junction
 		(at 196.85 95.25)
@@ -1661,10 +1667,10 @@
 		(uuid "46213cc7-a96f-449c-8a87-88b5a01b9a42")
 	)
 	(junction
-		(at 144.78 92.71)
+		(at 93.98 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4bb8ca8f-4a61-4d8c-9528-d7de52c5a928")
+		(uuid "4cf5a5e3-4304-4cc5-a7a4-b6fb82c3efca")
 	)
 	(junction
 		(at 68.58 77.47)
@@ -1673,16 +1679,16 @@
 		(uuid "4ef178da-2ad6-42f0-9e68-8cb1894f1d3e")
 	)
 	(junction
+		(at 196.85 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "536f9b0a-aa09-4f31-8b33-122d90d27f6d")
+	)
+	(junction
 		(at 196.85 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "541c2eb4-a58f-4d41-9949-e4b78f20b7d4")
-	)
-	(junction
-		(at 93.98 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57fcb4b3-0ce2-4021-9dd1-77a3578f74f9")
 	)
 	(junction
 		(at 119.38 97.79)
@@ -1703,10 +1709,10 @@
 		(uuid "682b53b5-7a1e-4ce5-9596-e363d30c148d")
 	)
 	(junction
-		(at 119.38 92.71)
+		(at 93.98 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "75419829-9882-4743-8436-9d2099a2734f")
+		(uuid "718989ac-aa2d-4835-8f94-c02f9ab8789d")
 	)
 	(junction
 		(at 119.38 77.47)
@@ -1721,10 +1727,22 @@
 		(uuid "7b58c5c1-b4c4-4cfa-900a-dbe4cc15df33")
 	)
 	(junction
-		(at 68.58 74.93)
+		(at 170.18 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "80abdd09-7a07-48ad-91a5-4f06e42e22d0")
+		(uuid "7bc39a93-4d4c-4c28-9911-e9995e7e7a17")
+	)
+	(junction
+		(at 119.38 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bca9a81-b948-4191-a4ac-cbfd6e601252")
+	)
+	(junction
+		(at 170.18 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "820c411c-8cb4-4a78-8de6-9e8655e94eed")
 	)
 	(junction
 		(at 120.65 177.8)
@@ -1737,6 +1755,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8841fd03-dbb9-4406-94ee-e30935fb2aef")
+	)
+	(junction
+		(at 144.78 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "888130ae-e4ce-40bb-9f4e-9b5c6aa3b925")
 	)
 	(junction
 		(at 170.18 95.25)
@@ -1793,18 +1817,6 @@
 		(uuid "a8bc967f-73dd-47dd-bc72-3b86be25f063")
 	)
 	(junction
-		(at 119.38 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9bb4f0f-2784-438a-bc1b-c404ffd3f76b")
-	)
-	(junction
-		(at 170.18 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae489ef6-f9d4-406c-b818-f7e7f627acba")
-	)
-	(junction
 		(at 119.38 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1835,18 +1847,6 @@
 		(uuid "bfe5f4a6-5f37-43a7-ad79-89717c802857")
 	)
 	(junction
-		(at 68.58 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3813229-69cb-4830-a472-9389c018fa39")
-	)
-	(junction
-		(at 196.85 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7ad12ee-e2d8-49bf-bc30-3d17cabb65ba")
-	)
-	(junction
 		(at 144.78 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1863,6 +1863,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce93dfbe-9aca-409a-8b09-50a07422229c")
+	)
+	(junction
+		(at 144.78 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceaccf56-14d2-4aca-b96e-75c403fc54b1")
 	)
 	(junction
 		(at 113.03 152.4)
@@ -1889,16 +1895,10 @@
 		(uuid "e692a819-9938-427f-9151-c49acf3ee96f")
 	)
 	(junction
-		(at 170.18 92.71)
+		(at 68.58 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f90bd962-3c50-4f99-a134-167485af7bf8")
-	)
-	(junction
-		(at 93.98 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fcef9110-aee8-4b76-bcaf-7adbc3514e6c")
+		(uuid "f6ca180c-93f3-46cc-a730-b42712bbefbc")
 	)
 	(no_connect
 		(at 154.94 168.91)
@@ -1934,6 +1934,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 92.71) (xy 196.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03542aa5-e46f-4dae-8d15-145c896770d2")
+	)
+	(wire
+		(pts
 			(xy 119.38 80.01) (xy 144.78 80.01)
 		)
 		(stroke
@@ -1941,6 +1951,16 @@
 			(type default)
 		)
 		(uuid "0433ef0c-77ad-42f6-bf29-9055105dabc1")
+	)
+	(wire
+		(pts
+			(xy 119.38 92.71) (xy 144.78 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e17af6-87cb-40c8-949c-fc29e4b3a7a7")
 	)
 	(wire
 		(pts
@@ -1961,6 +1981,16 @@
 			(type default)
 		)
 		(uuid "0b75dea9-3730-4b63-916d-244d0387f213")
+	)
+	(wire
+		(pts
+			(xy 93.98 92.71) (xy 119.38 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "124f4bd5-77e3-4416-b4d7-6610091a57ff")
 	)
 	(wire
 		(pts
@@ -2044,13 +2074,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 74.93) (xy 170.18 74.93)
+			(xy 196.85 74.93) (xy 223.52 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "307586eb-dd42-408e-aabe-e126af872f2f")
+		(uuid "2f3b381b-db6e-4864-85ba-52de93f8a55a")
 	)
 	(wire
 		(pts
@@ -2061,26 +2091,6 @@
 			(type default)
 		)
 		(uuid "317f1e87-00d8-49d7-a8cb-a72e6cb849f2")
-	)
-	(wire
-		(pts
-			(xy 196.85 74.93) (xy 170.18 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3824d830-ac2b-4ddc-afbb-ca9319b45372")
-	)
-	(wire
-		(pts
-			(xy 144.78 92.71) (xy 170.18 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3987f3f8-d5b7-47ea-8eb9-65957ab604e7")
 	)
 	(wire
 		(pts
@@ -2154,6 +2164,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 92.71) (xy 223.52 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497ba05a-4b44-42d3-95de-1fe7ef4ae9f6")
+	)
+	(wire
+		(pts
 			(xy 45.72 67.31) (xy 45.72 71.12)
 		)
 		(stroke
@@ -2184,6 +2204,36 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 74.93) (xy 144.78 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8361bd-5cf3-4c3b-9129-753366d7dbc1")
+	)
+	(wire
+		(pts
+			(xy 144.78 92.71) (xy 170.18 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff39754-2472-412a-aea0-c9296276f640")
+	)
+	(wire
+		(pts
+			(xy 170.18 74.93) (xy 196.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52491af6-8789-4825-9327-6d58aad3377a")
+	)
+	(wire
+		(pts
 			(xy 93.98 97.79) (xy 119.38 97.79)
 		)
 		(stroke
@@ -2194,13 +2244,23 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 92.71) (xy 223.52 92.71)
+			(xy 144.78 74.93) (xy 170.18 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58c290ce-b0c9-4ee1-80a1-f3ea43eeb168")
+		(uuid "574d0d65-fec9-47f8-aeee-e76447ea6d12")
+	)
+	(wire
+		(pts
+			(xy 68.58 92.71) (xy 93.98 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "590fd34e-f718-4f31-87d1-5de18ae26401")
 	)
 	(wire
 		(pts
@@ -2221,16 +2281,6 @@
 			(type default)
 		)
 		(uuid "5f9f57e0-f6ab-47df-8ccb-6997add621fc")
-	)
-	(wire
-		(pts
-			(xy 119.38 92.71) (xy 144.78 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61cc57b9-9590-4d00-b5c8-7f026f5ad675")
 	)
 	(wire
 		(pts
@@ -2314,16 +2364,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 92.71) (xy 119.38 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73943cb8-5b02-4df7-a05b-2a25dcabf2ef")
-	)
-	(wire
-		(pts
 			(xy 109.22 177.8) (xy 113.03 177.8)
 		)
 		(stroke
@@ -2404,16 +2444,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 74.93) (xy 144.78 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f6c726d-2222-4d53-b3fb-270a277c8103")
-	)
-	(wire
-		(pts
 			(xy 66.04 97.79) (xy 68.58 97.79)
 		)
 		(stroke
@@ -2441,6 +2471,16 @@
 			(type default)
 		)
 		(uuid "97a185d4-c0c5-4b51-bf05-4e975cbdcdaf")
+	)
+	(wire
+		(pts
+			(xy 66.04 92.71) (xy 68.58 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fba1c26-459e-46b6-aed4-061ef4a11bf1")
 	)
 	(wire
 		(pts
@@ -2504,16 +2544,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 74.93) (xy 119.38 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5faee5c-4b55-40a2-80de-31990fdf1775")
-	)
-	(wire
-		(pts
 			(xy 86.36 100.33) (xy 93.98 100.33)
 		)
 		(stroke
@@ -2564,6 +2594,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 74.93) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2673fdb-3297-4793-9d51-cac0aba2afc7")
+	)
+	(wire
+		(pts
 			(xy 109.22 152.4) (xy 113.03 152.4)
 		)
 		(stroke
@@ -2584,13 +2624,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 92.71) (xy 170.18 92.71)
+			(xy 93.98 74.93) (xy 119.38 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4a8aa1a-46fe-4f79-896a-64dcc94166cb")
+		(uuid "cd4746fc-ec17-42ff-b3d7-7f4fde8ed8e8")
 	)
 	(wire
 		(pts
@@ -2664,16 +2704,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 92.71) (xy 93.98 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df28e5a2-f4e0-434d-bed1-4bdf3ff77941")
-	)
-	(wire
-		(pts
 			(xy 214.63 100.33) (xy 223.52 100.33)
 		)
 		(stroke
@@ -2681,16 +2711,6 @@
 			(type default)
 		)
 		(uuid "e0f9e449-d78c-4fdf-ab21-f56090d0ba13")
-	)
-	(wire
-		(pts
-			(xy 196.85 74.93) (xy 223.52 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1066df4-f0a6-4e86-85b6-9f0a475df2ac")
 	)
 	(wire
 		(pts
@@ -2761,26 +2781,6 @@
 			(type default)
 		)
 		(uuid "f9eca216-1bb7-4d4b-97ae-7c17eee8023b")
-	)
-	(wire
-		(pts
-			(xy 68.58 74.93) (xy 93.98 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa2961db-61c1-404f-9d1a-32a4a0d3ce61")
-	)
-	(wire
-		(pts
-			(xy 66.04 92.71) (xy 68.58 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa802cb0-4891-4c7f-ab22-6fe75e98f296")
 	)
 	(wire
 		(pts
@@ -3066,7 +3066,7 @@
 			)
 		)
 	)
-	(global_label "Reset"
+	(global_label "~{Reset}"
 		(shape input)
 		(at 43.18 128.27 0)
 		(fields_autoplaced yes)
@@ -3110,7 +3110,7 @@
 			)
 		)
 	)
-	(global_label "Reset"
+	(global_label "~{Reset}"
 		(shape input)
 		(at 27.94 58.42 180)
 		(fields_autoplaced yes)
@@ -3132,7 +3132,7 @@
 			)
 		)
 	)
-	(global_label "Reset"
+	(global_label "~{Reset}"
 		(shape input)
 		(at 66.04 92.71 180)
 		(fields_autoplaced yes)
@@ -4195,16 +4195,6 @@
 			)
 			(uuid "ef0bf18b-9361-47f6-b33d-35483caf02f4")
 		)
-		(pin "Reset" input
-			(at 196.85 92.71 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "12571b16-8e76-4eb6-8fbf-6e935b014ec9")
-		)
 		(pin "Vcc" passive
 			(at 196.85 87.63 180)
 			(effects
@@ -4265,16 +4255,6 @@
 			)
 			(uuid "76bb5af3-623e-4235-81bc-321dc9b4a841")
 		)
-		(pin "Reset_ROW" input
-			(at 196.85 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8721f827-f116-481b-969c-6a9ebe2caf67")
-		)
 		(pin "~{Any_ROW}" input
 			(at 196.85 77.47 180)
 			(effects
@@ -4284,6 +4264,26 @@
 				(justify left)
 			)
 			(uuid "396c2c2c-d7f6-4ba2-a9e8-f9779b71e62f")
+		)
+		(pin "~{Reset}" input
+			(at 196.85 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "17028233-b313-4d4a-9675-f4ec5baa1367")
+		)
+		(pin "~{Reset_ROW}" input
+			(at 196.85 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1461ca48-4699-4b31-be9d-14404e1b6e3a")
 		)
 		(instances
 			(project "KeyboardBase"
@@ -4353,16 +4353,6 @@
 			)
 			(uuid "396c6580-ebd1-41b6-92c4-30a189c214dc")
 		)
-		(pin "Reset" input
-			(at 144.78 92.71 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9d105e4e-7c27-42d7-bcac-0e670583275f")
-		)
 		(pin "Vcc" passive
 			(at 144.78 87.63 180)
 			(effects
@@ -4423,16 +4413,6 @@
 			)
 			(uuid "9d6b493c-b6eb-4403-9f2c-eac2d1549562")
 		)
-		(pin "Reset_ROW" input
-			(at 144.78 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "91f94b82-a8ed-4257-bc83-5dd4ebd7a9d5")
-		)
 		(pin "~{Any_ROW}" input
 			(at 144.78 77.47 180)
 			(effects
@@ -4442,6 +4422,26 @@
 				(justify left)
 			)
 			(uuid "587a3676-2f0d-41c0-8c4f-a5a9ee837fb2")
+		)
+		(pin "~{Reset}" input
+			(at 144.78 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ad7ea42c-09ef-4a4f-92a9-6d2f6ce1def4")
+		)
+		(pin "~{Reset_ROW}" input
+			(at 144.78 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "885fba4a-f0ee-4c87-a7e9-455ad565b77b")
 		)
 		(instances
 			(project "KeyboardBase"
@@ -4511,16 +4511,6 @@
 			)
 			(uuid "16fedd3f-da5c-4e74-ad5d-f5390c69838d")
 		)
-		(pin "Reset" input
-			(at 170.18 92.71 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "63128912-96cf-4cd0-abb2-5cc25a014dc1")
-		)
 		(pin "Vcc" passive
 			(at 170.18 87.63 180)
 			(effects
@@ -4581,16 +4571,6 @@
 			)
 			(uuid "00f2b75a-ffcd-439e-af65-b23d3a37487a")
 		)
-		(pin "Reset_ROW" input
-			(at 170.18 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7c5076c6-7dd1-4591-9cbe-86b5c405be60")
-		)
 		(pin "~{Any_ROW}" input
 			(at 170.18 77.47 180)
 			(effects
@@ -4600,6 +4580,26 @@
 				(justify left)
 			)
 			(uuid "bb88602f-49bd-4370-b541-75c66f67a791")
+		)
+		(pin "~{Reset}" input
+			(at 170.18 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed18894a-dd30-48c5-8357-a04093869c78")
+		)
+		(pin "~{Reset_ROW}" input
+			(at 170.18 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "33d7dda2-1994-4621-8cdc-5aff3c954917")
 		)
 		(instances
 			(project "KeyboardBase"
@@ -4669,16 +4669,6 @@
 			)
 			(uuid "597032c5-665a-4a5c-b40b-ab0c83bb2d12")
 		)
-		(pin "Reset" input
-			(at 223.52 92.71 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bb587b74-5e84-4a0f-809e-62d06c42075e")
-		)
 		(pin "Vcc" passive
 			(at 223.52 87.63 180)
 			(effects
@@ -4739,16 +4729,6 @@
 			)
 			(uuid "ac9098f2-31fb-43df-8659-2a43448c966f")
 		)
-		(pin "Reset_ROW" input
-			(at 223.52 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0dd15a2d-1331-4051-a9e0-a58f11bbf0c8")
-		)
 		(pin "~{Any_ROW}" input
 			(at 223.52 77.47 180)
 			(effects
@@ -4758,6 +4738,26 @@
 				(justify left)
 			)
 			(uuid "ea6fddaf-0e27-4322-887a-1509da2eaa59")
+		)
+		(pin "~{Reset}" input
+			(at 223.52 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98338ee0-5ffb-4e0e-b8a6-9d65e6a943fb")
+		)
+		(pin "~{Reset_ROW}" input
+			(at 223.52 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "114afcc0-4343-4ed0-ba3c-d14bb4d35660")
 		)
 		(instances
 			(project "KeyboardBase"
@@ -4827,16 +4827,6 @@
 			)
 			(uuid "6132e12e-e1a1-483a-a509-e9e3e4c2ecae")
 		)
-		(pin "Reset" input
-			(at 68.58 92.71 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c727ed37-e276-4a98-a69b-589330026d4d")
-		)
 		(pin "Vcc" passive
 			(at 68.58 87.63 180)
 			(effects
@@ -4897,16 +4887,6 @@
 			)
 			(uuid "5c6a8a54-de00-4b7a-b1d8-93faff4b965c")
 		)
-		(pin "Reset_ROW" input
-			(at 68.58 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d32e0819-b68e-4e8a-a948-62ab2f41d5c9")
-		)
 		(pin "~{Any_ROW}" input
 			(at 68.58 77.47 180)
 			(effects
@@ -4916,6 +4896,26 @@
 				(justify left)
 			)
 			(uuid "061253d4-b1d6-4f84-90f1-d5c17c41c043")
+		)
+		(pin "~{Reset}" input
+			(at 68.58 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7c622a2f-7fae-41bc-9e0b-3fda02c6112a")
+		)
+		(pin "~{Reset_ROW}" input
+			(at 68.58 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "828583ae-fd9c-4bc8-80c9-328db75f4b1a")
 		)
 		(instances
 			(project "KeyboardBase"
@@ -4985,16 +4985,6 @@
 			)
 			(uuid "cb97676f-4d8f-4a75-95a4-1429686e368e")
 		)
-		(pin "Reset" input
-			(at 119.38 92.71 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9321fa11-0882-4c9e-806d-148d58adbf66")
-		)
 		(pin "Vcc" passive
 			(at 119.38 87.63 180)
 			(effects
@@ -5055,16 +5045,6 @@
 			)
 			(uuid "478552ea-1b38-4f86-9c9a-058c32ab6520")
 		)
-		(pin "Reset_ROW" input
-			(at 119.38 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3193e5a9-695d-4e9a-a0f3-036d35ae28ad")
-		)
 		(pin "~{Any_ROW}" input
 			(at 119.38 77.47 180)
 			(effects
@@ -5074,6 +5054,26 @@
 				(justify left)
 			)
 			(uuid "58a0ed28-9c09-43fe-9f85-09123d772d40")
+		)
+		(pin "~{Reset}" input
+			(at 119.38 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e7ded8b-4e8a-4a0c-967f-03222a5e8277")
+		)
+		(pin "~{Reset_ROW}" input
+			(at 119.38 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "94fade39-b400-4819-9abe-fa9b94348a04")
 		)
 		(instances
 			(project "KeyboardBase"
@@ -5143,16 +5143,6 @@
 			)
 			(uuid "b599dfa4-78ef-491e-9b69-35b04d6ecd0c")
 		)
-		(pin "Reset" input
-			(at 93.98 92.71 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ea081411-f949-4e8e-9bb8-04a12cbcc658")
-		)
 		(pin "Vcc" passive
 			(at 93.98 87.63 180)
 			(effects
@@ -5213,16 +5203,6 @@
 			)
 			(uuid "5ebafe31-4115-4e54-9d92-8200efc8ca0c")
 		)
-		(pin "Reset_ROW" input
-			(at 93.98 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7e6d5685-986b-4067-8033-ffad42356358")
-		)
 		(pin "~{Any_ROW}" input
 			(at 93.98 77.47 180)
 			(effects
@@ -5232,6 +5212,26 @@
 				(justify left)
 			)
 			(uuid "d07164b3-77f8-4c3b-81f8-e2ef9274a0a8")
+		)
+		(pin "~{Reset}" input
+			(at 93.98 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f5363635-bdc3-4898-95e9-a0a833e8be72")
+		)
+		(pin "~{Reset_ROW}" input
+			(at 93.98 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "60a929f0-5f20-4d1d-9fb8-5feb76aca1e8")
 		)
 		(instances
 			(project "KeyboardBase"
