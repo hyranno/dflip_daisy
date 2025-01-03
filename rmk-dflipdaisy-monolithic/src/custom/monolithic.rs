@@ -13,7 +13,7 @@ use rmk::action::KeyAction;
 use rmk::initialize_usb_keyboard_and_run;
 use rmk::debounce::DebouncerTrait;
 
-use crate::custom::matrix::{SequentialMatrix, SequentialMatrixPins};
+use rmk_custom_device::matrix::{SequentialMatrix, SequentialMatrixPins};
 
 #[cfg(not(feature = "_esp_ble"))]
 use embassy_executor::Spawner;

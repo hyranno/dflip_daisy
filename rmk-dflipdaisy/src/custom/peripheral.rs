@@ -11,7 +11,7 @@ use embedded_hal_async::digital::Wait;
 #[cfg(not(feature = "_nrf_ble"))]
 use embedded_io_async::{Read, Write};
 
-use super::matrix::{SequentialMatrix, SequentialMatrixPins};
+use rmk_custom_device::matrix::{SequentialMatrix, SequentialMatrixPins};
 
 
 /// Run the split peripheral service.

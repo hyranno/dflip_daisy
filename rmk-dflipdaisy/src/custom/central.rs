@@ -17,7 +17,7 @@ use rmk::debounce::fast_debouncer::RapidDebouncer;
 use rmk::debounce::DebouncerTrait;
 use rmk::split::central::initialize_usb_split_central_and_run;
 
-use super::matrix::{SequentialMatrix, SequentialMatrixPins, OffsettedMatrix};
+use rmk_custom_device::matrix::{SequentialMatrix, SequentialMatrixPins, OffsettedMatrix};
 
 /// Run RMK split central keyboard service. This function should never return.
 ///

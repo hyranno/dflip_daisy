@@ -5,7 +5,8 @@
 mod macros;
 
 mod custom;
-use crate::custom::{peripheral::run_rmk_split_peripheral, matrix::SequentialMatrixPins};
+use crate::custom::peripheral::run_rmk_split_peripheral;
+use rmk_custom_device::matrix::SequentialMatrixPins;
 
 use defmt::*;
 use defmt_rtt as _;

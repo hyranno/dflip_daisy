@@ -10,7 +10,8 @@ mod vial;
 mod custom;
 
 use crate::keymap::{COL, NUM_LAYER, ROW};
-use crate::custom::{central::run_rmk_split_central, matrix::SequentialMatrixPins};
+use crate::custom::central::run_rmk_split_central;
+use rmk_custom_device::matrix::SequentialMatrixPins;
 
 use defmt::*;
 use defmt_rtt as _;

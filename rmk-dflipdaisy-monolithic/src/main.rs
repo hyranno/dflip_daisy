@@ -8,7 +8,8 @@ mod macros;
 mod vial;
 
 mod custom;
-use custom::{monolithic::run_rmk_with_async_flash, matrix::SequentialMatrixPins};
+use custom::monolithic::run_rmk_with_async_flash;
+use rmk_custom_device::matrix::SequentialMatrixPins;
 
 use defmt::*;
 use defmt_rtt as _;

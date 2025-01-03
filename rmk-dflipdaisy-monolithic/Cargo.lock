@@ -2270,6 +2270,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "rmk-custom-device"
+version = "0.1.0"
+dependencies = [
+ "defmt",
+ "embassy-time",
+ "embedded-hal 1.0.0",
+ "embedded-hal-async",
+ "rmk",
+]
+
+[[package]]
 name = "rmk-dflipdaisy-monolithic"
 version = "0.1.0"
 dependencies = [
@@ -2290,6 +2301,7 @@ dependencies = [
  "panic-probe",
  "portable-atomic",
  "rmk",
+ "rmk-custom-device",
  "xz2",
 ]
 

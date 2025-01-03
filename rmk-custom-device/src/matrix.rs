@@ -27,7 +27,7 @@ impl <
     #[cfg(not(feature = "async_matrix"))] In: InputPin,
     Out: OutputPin,
 > SequentialMatrixPins<In, Out> {
-    pub(crate) fn new(
+    pub fn new(
         row_clock: Out,
         col_clock: Out,
         any_not: Out,
@@ -59,6 +59,7 @@ pub struct SequentialMatrix<
     /// Key state matrix
     key_states: [[KeyState; COL]; ROW],
     /// Start scanning
+    #[allow(dead_code)]
     scan_start: Option<Instant>,
 }
 
@@ -72,7 +73,7 @@ impl<
 > SequentialMatrix<In, Out, D, ROW, COL> {
     const PROPAGATION_DELAY: u64 = 50;
 
-    pub(crate) fn new(
+    pub fn new(
         pins: SequentialMatrixPins<In, Out>,
         debouncer: D,
     ) -> Self {
@@ -212,7 +213,7 @@ impl<
     const ROW: usize,
     const COL: usize,
 > OffsettedMatrix<M, ROW_OFFSET, COL_OFFSET, ROW, COL> {
-    pub(crate) fn new(
+    pub fn new(
         matrix: M
     ) -> Self {
         Self {
