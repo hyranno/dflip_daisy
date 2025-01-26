@@ -13,6 +13,7 @@ RUN \
     curl \
     software-properties-common \
     build-essential \
+    python3-pip \
   && \
 # Install kicad
   add-apt-repository -y ppa:kicad/kicad-8.0-releases && \
@@ -20,6 +21,7 @@ RUN \
   apt-get install -y -q \
     kicad \
   && \
+  pip3 install kikit --break-system-packages && \
 # Install rmk
   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y && \
   source $HOME/.cargo/env && \
